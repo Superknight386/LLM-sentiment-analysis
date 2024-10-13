@@ -2,7 +2,7 @@ from openai import OpenAI
 
 def sentimentAnalysis(content):
     client = OpenAI(
-    api_key = "sk-nyRPODcrKUikttj2k4XcfJX94hjqmBLuGFQxWprq8luClTmY",
+    api_key = "$MOONSHOT-API",
     base_url = "https://api.moonshot.cn/v1",
     )
     
